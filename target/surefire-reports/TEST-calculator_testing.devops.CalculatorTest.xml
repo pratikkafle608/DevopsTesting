@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="calculator_testing.devops.CalculatorTest" time="0.437" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\prati\devops_testing\devops\target\test-classes;C:\Users\prati\devops_testing\devops\target\classes;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\prati\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\prati\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\prati\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\prati\AppData\Local\Temp\surefire14721057180699036398\surefirebooter-20251108154629670_3.jar C:\Users\prati\AppData\Local\Temp\surefire14721057180699036398 2025-11-08T15-46-28_141-jvmRun1 surefire-20251108154629670_1tmp surefire_0-20251108154629670_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\prati\devops_testing\devops\target\test-classes;C:\Users\prati\devops_testing\devops\target\classes;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\prati\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\prati\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\prati\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\prati\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prati"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\prati\devops_testing\devops"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\prati\AppData\Local\Temp\surefire14721057180699036398\surefirebooter-20251108154629670_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="prati"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\prati\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\prati\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\prati\devops_testing\devops"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Kubernetes\Minikube;C:\Users\prati\AppData\Local\Muse Hub\lib;C:\Program Files\Git\cmd;C:\Users\prati\Desktop\fall 2026\apache-maven-3.9.11-bin;C:/Users/prati/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/prati/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS.X64_213000_db_home\bin;C:\Users\prati\Downloads\WINDOWS.X64_213000_db_home\bin;C:\Users\prati\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program;C:\Program Files\Java\jdk-17\bin;C:\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="add_twoNumbers(int, int, int)[1]" classname="calculator_testing.devops.CalculatorTest" time="0.138">
+    <system-out><![CDATA[[Before All] Calculator Test suite starting .... by pkafle
+[Before Each] Starting Test #1: 100+2=102
+[After Each] Finished Test #1: 100+2=102
+
+]]></system-out>
+  </testcase>
+  <testcase name="add_twoNumbers(int, int, int)[2]" classname="calculator_testing.devops.CalculatorTest" time="0.003">
+    <system-out><![CDATA[[Before Each] Starting Test #2: 100+-2=98
+[After Each] Finished Test #2: 100+-2=98
+
+]]></system-out>
+  </testcase>
+  <testcase name="add_twoNumbers(int, int, int)[3]" classname="calculator_testing.devops.CalculatorTest" time="0.004">
+    <system-out><![CDATA[[Before Each] Starting Test #3: -100+2=-98
+[After Each] Finished Test #3: -100+2=-98
+
+]]></system-out>
+  </testcase>
+  <testcase name="add_twoNumbers(int, int, int)[4]" classname="calculator_testing.devops.CalculatorTest" time="0.002">
+    <system-out><![CDATA[[Before Each] Starting Test #4: -100+-2=-102
+[After Each] Finished Test #4: -100+-2=-102
+
+]]></system-out>
+  </testcase>
+  <testcase name="multiple_twoNumbers(int, int, int)[1]" classname="calculator_testing.devops.CalculatorTest" time="0.004">
+    <system-out><![CDATA[[Before Each] Starting Test #5: 100*2=200
+[After Each] Finished Test #5: 100*2=200
+
+]]></system-out>
+  </testcase>
+  <testcase name="multiple_twoNumbers(int, int, int)[2]" classname="calculator_testing.devops.CalculatorTest" time="0.004">
+    <system-out><![CDATA[[Before Each] Starting Test #6: 100*-2=-200
+[After Each] Finished Test #6: 100*-2=-200
+
+]]></system-out>
+  </testcase>
+  <testcase name="multiple_twoNumbers(int, int, int)[3]" classname="calculator_testing.devops.CalculatorTest" time="0.003">
+    <system-out><![CDATA[[Before Each] Starting Test #7: -100*2=-200
+[After Each] Finished Test #7: -100*2=-200
+
+]]></system-out>
+  </testcase>
+  <testcase name="multiple_twoNumbers(int, int, int)[4]" classname="calculator_testing.devops.CalculatorTest" time="0.002">
+    <system-out><![CDATA[[Before Each] Starting Test #8: -100*-2=200
+[After Each] Finished Test #8: -100*-2=200
+
+]]></system-out>
+  </testcase>
+  <testcase name="substract_twoNumbers(int, int, int)[1]" classname="calculator_testing.devops.CalculatorTest" time="0.002">
+    <system-out><![CDATA[[Before Each] Starting Test #9: 100-2=98
+[After Each] Finished Test #9: 100-2=98
+
+]]></system-out>
+  </testcase>
+  <testcase name="substract_twoNumbers(int, int, int)[2]" classname="calculator_testing.devops.CalculatorTest" time="0.002">
+    <system-out><![CDATA[[Before Each] Starting Test #10: 100--2=102
+[After Each] Finished Test #10: 100--2=102
+
+]]></system-out>
+  </testcase>
+  <testcase name="substract_twoNumbers(int, int, int)[3]" classname="calculator_testing.devops.CalculatorTest" time="0.002">
+    <system-out><![CDATA[[Before Each] Starting Test #11: -100-2=-102
+[After Each] Finished Test #11: -100-2=-102
+
+]]></system-out>
+  </testcase>
+  <testcase name="substract_twoNumbers(int, int, int)[4]" classname="calculator_testing.devops.CalculatorTest" time="0.001">
+    <system-out><![CDATA[[Before Each] Starting Test #12: -100--2=-98
+[After Each] Finished Test #12: -100--2=-98
+
+]]></system-out>
+  </testcase>
+  <testcase name="divide_byZero" classname="calculator_testing.devops.CalculatorTest" time="0.007">
+    <system-out><![CDATA[[Before Each] Starting Test #13: divide_byZero()
+[After Each] Finished Test #13: divide_byZero()
+
+]]></system-out>
+  </testcase>
+</testsuite>
