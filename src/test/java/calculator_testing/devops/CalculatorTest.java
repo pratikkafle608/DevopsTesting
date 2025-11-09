@@ -87,25 +87,25 @@ public class CalculatorTest {
     }
 	
 	
-//	@ParameterizedTest(name="{0}/{1}={2}")
-  //  @DisplayName("Divide two numbers")
-   // @CsvSource({
-    //		"100, 2, 98",
-    	//	"100,-2, 102",
-    //		"-100,2, -102",
-    //		"-100,-2,-98"
-    //}
-    	//	)
+@ParameterizedTest(name="{0}/{1}={2}")
+   @DisplayName("Divide two numbers")
+   @CsvSource({
+    		"100, 2, 98",
+    		"100,-2, 102",
+    		"-100,2, -102",
+    	"-100,-2,-98"
+    }
+    	)
 	
-   // public void divi(int input1, int input2, int expected) {
-     //   Calculator calculator = new Calculator();
+   public void divi(int input1, int input2, int expected) {
+        Calculator calculator = new Calculator();
         
-       // assertThrows(IllegalArgumentException.class, () -> calculator.divide(10,0));
+        assertThrows(IllegalArgumentException.class, () -> calculator.divide(10,0));
         
-        //int result = calculator.divide(input1, input2);
+        int result = calculator.divide(input1, input2);
         
-       // assertEquals(expected, result);
-    //}
+       assertEquals(expected, result);
+    }
 
 	@Test
 	public void divide_byZero() {
