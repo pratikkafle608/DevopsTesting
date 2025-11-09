@@ -90,10 +90,10 @@ public class CalculatorTest {
 @ParameterizedTest(name="{0}/{1}={2}")
    @DisplayName("Divide two numbers")
    @CsvSource({
-    		"100, 2, 98",
-    		"100,-2, 102",
-    		"-100,2, -102",
-    	"-100,-2,-98"
+    		"100, 2, 50",
+    		"100, -2, -50",
+    		"-100, 2, -50",
+    	"-100, -2, 50"
     }
     	)
 	
